@@ -3,7 +3,7 @@ import sys
 
 import pygame
 
-from Sprites import Player, Enemy, Bullet
+from Sprites import Player, Enemy, Bullet, EnemyBullet
 from constants import WIDTH, HEIGHT, BACKGROUND_SPEED, FPS
 from helpers import get_image_path, get_sound_path, get_font_path, get_heart_frames, load_image
 
@@ -33,6 +33,11 @@ last_enemy_spawned = 0
 bullet_sprites = pygame.sprite.Group()
 bullet_cooldown = 800
 last_bullet_fired = 0
+
+# enemy bullets
+enemy_bullet_sprites = pygame.sprite.Group()
+last_enemy_bullet_fired = 0
+enemy_bullet_cooldown = 1600
 
 # score
 spaceship = pygame.image.load(get_image_path("spaceship.png")).convert_alpha()
@@ -108,8 +113,16 @@ while running:
 
         # Spawn enemies
         if current_time - last_enemy_spawned >= spawn_enemy:
-            enemy_sprites.add(Enemy(random.randint(1,5)))
+            enemy_sprites.add(Enemy(random.randint(1, 5)))
             last_enemy_spawned = current_time
+
+        # spawn enemy bullets
+        if len(enemy_sprites.sprites()) > 0:
+            shooting_enemy_index = random.randint(0, len(enemy_sprites.sprites())-1)
+            if current_time - enemy_bullet_cooldown >= last_enemy_bullet_fired:
+                enemy_bullet_sprites.add(EnemyBullet(enemy_sprites.sprites()[shooting_enemy_index].rect.center))
+                last_enemy_bullet_fired = current_time
+                shoot.play()
 
         # # detect collisions
         if pygame.sprite.spritecollide(player_sprite.sprite, enemy_sprites, True):
@@ -118,6 +131,10 @@ while running:
 
         if pygame.sprite.groupcollide(bullet_sprites, enemy_sprites, True, True):
             score += 1
+            boom.play()
+
+        if pygame.sprite.spritecollide(player_sprite.sprite, enemy_bullet_sprites, True):
+            lives -= 1
             boom.play()
 
         # update score
@@ -155,10 +172,13 @@ while running:
         player_sprite.update()
 
         bullet_sprites.draw(screen)
-        bullet_sprites.update( )
+        bullet_sprites.update()
 
         enemy_sprites.draw(screen)
         enemy_sprites.update()
+
+        enemy_bullet_sprites.draw(screen)
+        enemy_bullet_sprites.update()
 
     else:
         keys = pygame.key.get_pressed()

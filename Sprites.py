@@ -1,6 +1,6 @@
 import random
 
-from pygame import K_UP, K_DOWN, key
+from pygame import K_UP, K_DOWN, key, transform
 from pygame.sprite import Sprite
 
 from constants import HEIGHT, PLAYER_SPEED, WIDTH, BULLET_SPEED
@@ -86,6 +86,27 @@ class Bullet(Sprite):
 
     def destroy_bullet(self):
         if self.rect.right > WIDTH:
+            self.kill()
+
+    def update(self, *args, **kwargs):
+        self.move_bullet()
+        self.destroy_bullet()
+
+
+class EnemyBullet(Sprite):
+
+    def __init__(self, location: int):
+        super().__init__()
+        self.image = transform.flip(load_image("bullet_2.png"), False, True)
+        self.rect = self.image.get_rect()
+        self.rect.center = location
+        self.speed = BULLET_SPEED * 2
+
+    def move_bullet(self):
+        self.rect.x -= self.speed
+
+    def destroy_bullet(self):
+        if self.rect.left < 0:
             self.kill()
 
     def update(self, *args, **kwargs):
