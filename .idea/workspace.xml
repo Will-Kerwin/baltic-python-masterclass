@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fd4bc2d-69d4-4033-85f7-20e354a07a47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/LuckiestGuy-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/space_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/boom.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/shoot.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sounds/xeon6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2cGG88g769AoFKJjG9NTsnBMc7b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Constants.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/kerwinw/Projects/Baltic/SwdGameDevMasterclass/pythonProject",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd4bc2d-69d4-4033-85f7-20e354a07a47" name="Changes" comment="" />
+      <created>1707730340571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707730340571</updated>
+    </task>
+    <servers />
+  </component>
+</project>
