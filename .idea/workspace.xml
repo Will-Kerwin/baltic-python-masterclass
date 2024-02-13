@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fd4bc2d-69d4-4033-85f7-20e354a07a47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/LuckiestGuy-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hearts/frame-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/space_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_five.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_four.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_en_two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/spaceship_pl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/boom.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/shoot.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/sounds/xeon6.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="b9mjq00z" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -69,15 +46,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/kerwinw/Projects/Baltic/SwdGameDevMasterclass/pythonProject",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/bobbe/AppData/Local/Programs/Python/Python312/python.exe",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

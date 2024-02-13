@@ -66,6 +66,13 @@ score_font = pygame.font.Font(get_font_path("LuckiestGuy-Regular.ttf"), 32)
 score = 0
 score_text = score_font.render(f"{score}", True, "white")
 
+# Lives
+
+lives = 3
+heart = pygame.image.load(get_image_path("heart.png")).convert_alpha()
+heart_rect = heart.get_rect()
+heart_rect.bottomleft = (25, 575)
+
 # Clock
 clock = pygame.time.Clock()
 
@@ -154,7 +161,8 @@ while running:
         # detect collisions
         for enemy_image, enemy_rect in spawned_enemies:
             if enemy_rect.colliderect(player_rect):
-                game_over = True
+                lives -= 1
+                spawned_enemies.remove((enemy_image, enemy_rect))
             for bullet_image, bullet_rect in bullet_list:
                 if enemy_rect.colliderect(bullet_rect):
                     spawned_enemies.remove((enemy_image, enemy_rect))
@@ -163,6 +171,19 @@ while running:
 
         # update score
         score_text = score_font.render(f"{score}", True, "white")
+        if score > 5:
+            spawn_enemy = 2500
+        if score > 10:
+            spawn_enemy = 2000
+        if score > 15:
+            spawn_enemy = 1500
+        if score > 20:
+            spawn_enemy = 1000
+
+        # update lives
+        lives_text = score_font.render(f"{lives}", True, "white")
+        if lives < 1:
+            game_over = True
 
         # Draw surfaces
         screen.blit(background, background_rect_one)
@@ -177,6 +198,8 @@ while running:
 
         screen.blit(spaceship, spaceship_rect)
         screen.blit(score_text, (60, 25))
+        screen.blit(heart, heart_rect)
+        screen.blit(lives_text, (60, 540))
 
     else:
         keys = pygame.key.get_pressed()
@@ -184,6 +207,8 @@ while running:
             game_over = False
             spawned_enemies.clear()
             bullet_list.clear()
+            lives = 3
+            score = 0
         screen.fill("black")
         screen.blit(title_text, title_rect)
         screen.blit(title_image, title_image_rect)
